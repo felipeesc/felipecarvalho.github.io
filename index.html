@@ -292,12 +292,24 @@
       <div class="text-success my-3 bs">
         
       </div>
-
-      <form action="https://formspree.io/f/maylpkak" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
-</form>
+	       <form action="https://formspree.io/f/maylpkak" method="POST">
+        <div class="form-row bs">
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6 bs">
+            <label>Nome</label>
+            <input type="text" class="form-control" name="name" placeholder="Seu nome">
+          </div>
+          <div class="col-12 col-xl-6 col-lg-6 col-md-6 bs">
+            <label>Email</label>
+            <input type="email" class="form-control" name="_replyto" placeholder="Seu email">
+          </div>
+        </div>
+    
+        <div class="form-group bs">
+          <label>Mensagem</label>
+          <textarea placeholder="Sua mensagem" name="message" class="form-control" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </form>
   </div>
 </section>		
 </div>
